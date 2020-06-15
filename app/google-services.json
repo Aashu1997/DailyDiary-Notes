@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530979751496",
+    "firebase_url": "https://dailydiary-af03e.firebaseio.com",
+    "project_id": "dailydiary-af03e",
+    "storage_bucket": "dailydiary-af03e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530979751496:android:c75bae0049c8ca8e",
+        "android_client_info": {
+          "package_name": "com.genius.dailydiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530979751496-dm98r8c5r06pf296v7ssve3a18i4dhkk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.genius.dailydiary",
+            "certificate_hash": "a3eba72701147a7075172ee19ef047de6dfee32a"
+          }
+        },
+        {
+          "client_id": "530979751496-r4tgv43hrekue98dvfm7md014np4k3jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCvkBSzqXn_WS2bQCCPvSrZvWSbaVSrn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530979751496-r4tgv43hrekue98dvfm7md014np4k3jf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
