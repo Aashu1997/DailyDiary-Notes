@@ -1,5 +1,6 @@
 package com.genius.dailydiary;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -112,7 +113,9 @@ public class NewNoteActivity extends AppCompatActivity {
 
                             if(task.isSuccessful())
                             {
-                                Toast.makeText(NewNoteActivity.this, "Note added to database", Toast.LENGTH_SHORT).show();
+                               // Toast.makeText(NewNoteActivity.this, "Note added to database", Toast.LENGTH_SHORT).show();
+                                Intent intent = new Intent(NewNoteActivity.this,MainActivity.class);
+                                startActivity(intent);
                             }
                             else
                             {
